@@ -23,7 +23,7 @@ The user can:
 5. Delete an entry in the database
 6. Close the application
 
-#Requirements
+# Requirements
 1. Python 3 installed
 2. Tkinter installed.
 

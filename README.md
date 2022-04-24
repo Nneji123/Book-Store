@@ -32,7 +32,7 @@ To run from the terminal:
 cd BookStore
 python frontend.py
 ```
-
 A .exe file is also included so you can run the application(compiled using pyinstaller package) if you don't have python installed.
 
 ## Image Preview
+![App](https://user-images.githubusercontent.com/101701760/164985485-2200071c-cb7d-41e1-9585-e0418706b344.png)

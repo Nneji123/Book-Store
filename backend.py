@@ -16,15 +16,13 @@ class Database:
 # View function
     def view(self):
         self.cur.execute("SELECT * FROM book")
-        rows=self.cur.fetchall()
-        return rows
+        return self.cur.fetchall()
 
 
 # Search function
     def search(self,title="",author="",year="",isbn=""):
         self.cur.execute("SELECT * FROM book WHERE title=? OR author=? OR year=? OR isbn=?", (title,author,year,isbn))
-        rows=self.cur.fetchall()
-        return rows
+        return self.cur.fetchall()
 
 # Delete function
     def delete(self,id):
